@@ -19,7 +19,7 @@ const [data,setData]=React.useState("nothing")
 
   const getUser=async()=>{
     try {
-      const response=await axios.get("/api/users/profile")
+      const response=await axios.get("/api/users/me")
       setData(response.data.data._id)
       
     } catch (error) {
