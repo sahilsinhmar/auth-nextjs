@@ -58,7 +58,7 @@ export default function LoginPage(){
 
       <button className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 bg-[#4450BC] text-white text-xl" onClick={onLogin}>{buttonDisabled ? "..." : "Login"}</button>
       <div className="text-red-700 text-center">{userexist}</div>
-      <div className="text-md my-2 text-gray-500 text-center">Don't have an account?<Link href="/signup" className="mx-2 text-black">Signup</Link></div>
+      <div className="text-md my-2 text-gray-500 text-center">Dont have an account?<Link href="/signup" className="mx-2 text-black">Signup</Link></div>
       
       <div className="text-center text-black">
         <Link href="/forgetpassword">Forgot your password?</Link>
